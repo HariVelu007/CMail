@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace CMail.Helper
+{
+    public class ModelResponse<T>
+    {
+        public T Data { get; set; }
+        public bool Status { get; set; } = true;
+        public string Message { get; set; } = "";
+    }
+}
